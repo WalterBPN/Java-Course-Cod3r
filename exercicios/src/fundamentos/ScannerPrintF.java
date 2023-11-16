@@ -1,0 +1,30 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+public class ScannerPrintF {
+
+	public static void main(String[] Args) {
+
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Type your name: ");
+		String name = input.nextLine(); 
+		
+		System.out.print("How old are you? ");
+		int age = input.nextInt();
+		//input.nextInt();
+		
+		System.out.print("How much do you expect to earn? ");
+		double salary = input.nextDouble();
+		//input.nextDouble();
+		
+		System.out.println("Im pretty sure that you are going to achive this goal, just keep pushing!!!");
+		
+		System.out.printf("%s is %d years old and will work as software developer earning something about %.2f euros per month.", name, age, salary);
+		
+		input.close();
+		
+	}
+
+}
