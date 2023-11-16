@@ -1,0 +1,14 @@
+package fundamentos;
+
+public class Wrapper {
+	
+	public static void main (String[]Args) {
+		
+		
+		double d = 3.14151617;
+		
+		float f = (float) d;
+		//Basically, if you want to convert a bigger type into a smaller, you have to do the cast like the line above;
+	}
+
+}

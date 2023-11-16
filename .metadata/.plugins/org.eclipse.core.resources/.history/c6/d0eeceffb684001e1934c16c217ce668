@@ -1,0 +1,17 @@
+package fundamentos;
+
+public class ConvertionByCast {
+	
+	public static void main(String[]Args) {
+		
+		//If it is a conversion of a primitive, you must do like the example:
+		int i = 7;		
+		String s1 = Integer.toString(i);
+		System.out.println(s1);
+		
+		Integer i2 = 10;
+		String s2 = i2.toString();
+		System.out.println(s2);
+	}
+
+}

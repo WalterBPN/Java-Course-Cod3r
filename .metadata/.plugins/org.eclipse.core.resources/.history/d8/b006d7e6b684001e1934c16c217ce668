@@ -1,0 +1,21 @@
+package fundamentos;
+
+public class Wrapper {
+	
+	public static void main (String[]Args) {
+		
+		
+		double d = 3.14151617;
+		
+		float f = (float) d;
+		/*
+		 * Basically, if you want to convert a bigger type into a smaller, you have to do the cast like the line above
+		 * because java wants you to take the responsibility  of losing data;
+		 * 
+		 * As you can see, we lose data executing this conversion.
+		 */
+		System.out.println(f);
+	
+	}
+
+}
